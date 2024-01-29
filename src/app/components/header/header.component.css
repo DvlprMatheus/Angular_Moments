@@ -34,9 +34,13 @@ nav {
 }
 
 #add a {
-    color: #dec129;
+    padding: 6px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 #add a:hover {
-    background-color: #efefef;
+    color: #FFF;
+    background-color: #000;
 }
