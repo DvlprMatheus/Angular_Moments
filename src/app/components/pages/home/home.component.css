@@ -38,7 +38,7 @@
 }
 
 a {
-    color: #dec129;
+    color: #7b7eb2;
     padding: 0.3em 0.6em;
 }
 
@@ -66,4 +66,5 @@ a:hover {
     padding: 0.5em;
     width: 100%;
     text-align: center;
+    border-radius: 10px;
 }

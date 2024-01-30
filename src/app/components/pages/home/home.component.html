@@ -1,9 +1,9 @@
 <div class="home-container">
-    <h1>Veja o que estão compartilhando:</h1>
+    <h1>Veja os jogos que foram compartilhados:</h1>
     <div class="search-container">
         <form>
             <fa-icon [icon]="faSearch"></fa-icon>
-            <input type="text" placeholder="Ou busque por um momento..." (input)="search($event)">
+            <input type="text" placeholder="Ou busque por uma específica.." (input)="search($event)">
         </form>
     </div>
     <div *ngIf="moments.length > 0; else noMoments">
@@ -18,6 +18,6 @@
         </div>
     </div>
     <ng-template #noMoments>
-        <h1>Não há Momentos cadastrados!</h1>
+        <h1>Não há partidas compartilhadas!</h1>
     </ng-template>
 </div>

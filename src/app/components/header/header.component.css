@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #202020;
 }
 
 .brand, .links {
@@ -21,7 +21,7 @@ nav {
 }
 
 .brand:hover > h2 {
-    color: #dec129;
+    color: #7b7eb2;
 }
 
 .links li {
@@ -34,13 +34,13 @@ nav {
 }
 
 #add a {
-    padding: 6px;
-    color: #000;
-    border: 1px solid #000;
-    border-radius: 5px;
+    padding: 7px;
+    color: #7b7eb2;
+    border: 1px solid #7b7eb2;
+    border-radius: 9px;
 }
 
 #add a:hover {
-    color: #FFF;
-    background-color: #000;
+    background-color: #7b7eb2;
+    color: #FFF
 }

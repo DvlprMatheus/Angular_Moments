@@ -10,6 +10,19 @@ h2, p {
     margin-bottom: 1em;
 }
 
+p {
+    width: 30%;
+    text-align: justify;
+}
+
 .about a {
-    text-decoration: underline;
+    padding: 7px;
+    color: #7b7eb2;
+    border: 1px solid #7b7eb2;
+    border-radius: 9px;
+}
+
+.about a:hover{
+    background-color: #7b7eb2;
+    color: #FFF;
 }
