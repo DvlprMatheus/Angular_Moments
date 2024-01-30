@@ -12,19 +12,21 @@
 .moments-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 80%;
+    width: 90vw;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .moment {
-    width: 32%;
+    width: 350px;
     margin-bottom: 1em;
     text-align: center;
 }
 
 .moment img {
-    width: 100%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
     margin-bottom: 1em;
 }
 
@@ -40,10 +42,13 @@
 a {
     color: #7b7eb2;
     padding: 0.3em 0.6em;
+    border: 1px solid #7b7eb2;
+    border-radius: 8px;
 }
 
 a:hover {
-    background-color: #efefef;
+    color: #FFF;
+    background-color: #7b7eb2;
 }
 
 .search-container {

@@ -40,9 +40,15 @@ form {
     font-size: 0.8em;
 }
 
+.align-center {
+    display: flex;
+    justify-content: center;
+}
+
 input[type="submit"] {
     background-color: #efefef;
     border: 2px solid transparent;
+    border-radius: 12px;
     padding: 0.6em 1em;
     font-weight: bold;
     font-size: 1.1em;
