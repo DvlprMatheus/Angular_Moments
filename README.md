@@ -1,6 +1,6 @@
 # Moments
 
-Já imaginou poder compartilhar seus momentos especiais ou até mesmo a sua rotina? O Moments, é uma rede social exclusiva para você pode postar suas fotos favoritas e receber comentários dos seus amigos. É fácil, divertido e uma maneira ótima de manter-se conectado com as pessoas que você ama. Confira agora este projeto em Angular, integrado com uma API Restful construída em AdonisJS.
+Já imaginou poder compartilhar suas partidas ou até mesmo algum bug engraçado que achou enquanto jogava? O Moments é uma rede social exclusiva para você que é ligado no mundo dos jogos e quer receber comentários dos seus amigos. É fácil, divertido e uma maneira ótima de manter-se conectado com outros jogadores. Confira agora este projeto em Angular, integrado com uma API Restful construída em AdonisJS.
 
 ## Sumário
 
