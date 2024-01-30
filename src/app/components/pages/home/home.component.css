@@ -28,6 +28,7 @@
     height: 350px;
     object-fit: cover;
     margin-bottom: 1em;
+    border-radius: 15px;
 }
 
 .moment h3, .moment p {
