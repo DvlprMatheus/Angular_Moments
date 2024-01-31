@@ -46,6 +46,8 @@ export class EditMomentComponent implements OnInit{
 
     this.messagesService.add(`O post foi atualizado com sucesso!`);
 
-    this.router.navigate(["/"]);
+    setTimeout(() => {
+      this.router.navigate(['/']);
+    }, 10);
   }
 }

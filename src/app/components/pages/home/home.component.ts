@@ -28,13 +28,16 @@ export class HomeComponent implements OnInit{
       this.momentService.getMoments().subscribe((items) => {
         const data = items.data;
 
-        data.map((item) => {
-          item.created_at = new Date(item.created_at!).toLocaleDateString('pt-BR');
-        })
-
         this.allMoments = data;
         this.moments = data;
       });
+  }
+
+  formateDate(date: string | undefined): string{
+    if (date != undefined){
+    return new Date(date).toLocaleDateString('pt-BR');
+  }
+    return 'Data Inválida';
   }
 
   search(event: Event) : void {

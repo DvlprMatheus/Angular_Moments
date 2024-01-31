@@ -33,7 +33,9 @@ export class NewMomentComponent {
     await this.momentService.createMoment(formData).subscribe();
 
     this.messagesService.add('O post foi adicionado com sucesso!')
-
-    this.router.navigate(['/']);
+    
+    setTimeout(() => {
+      this.router.navigate(['/']);
+    }, 10);
   }
 }
