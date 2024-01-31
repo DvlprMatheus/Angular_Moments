@@ -1,4 +1,21 @@
 <footer>
-    <h3> <span>Moments</span> &copy; Copyright 2024</h3>
-    <p><a>Termos</a>  ‧ <a>Privacidade</a> ‧ <a>Serviços</a></p>
+    <div class="footer-content">
+        <h3> <span>Moments</span> &copy; Copyright 2024</h3>
+        <p><a>Termos</a>  ‧ <a>Privacidade</a> ‧ <a>Serviços</a></p>
+    </div>
+
+    <div class="social">
+        <div class="email">
+            <fa-icon [icon]="faEnvelope"></fa-icon>
+            <p>Email: {{ email }}</p>
+        </div>
+        <div class="phone">
+            <fa-icon [icon]="faPhone"></fa-icon>
+            <p>Telefone: (11) 4002-8922</p>
+        </div>
+        <div class="local">
+            <fa-icon [icon]="faLocationDot"></fa-icon>
+            <p class="endereco">Endereço: Rua dos Sonhos, 123,<br>São Paulo - SP</p>
+        </div>
+    </div>
 </footer>

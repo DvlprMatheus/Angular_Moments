@@ -44,7 +44,7 @@ export class EditMomentComponent implements OnInit{
 
     await this.momentService.updateMoment(id!, formData).subscribe();
 
-    this.messagesService.add(`O momento foi atualizado com sucesso!`);
+    this.messagesService.add(`O post foi atualizado com sucesso!`);
 
     this.router.navigate(["/"]);
   }
