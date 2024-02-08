@@ -21,7 +21,7 @@ Aqui você pode acompanhar algumas funções que foram disponibilizadas ao usuá
 
 ## Tecnologias
 
-![Tecnologias](https://skillicons.dev/icons?i=typescript)
+![Tecnologias](https://skillicons.dev/icons?i=angular,typescript)
 
 ## Licença
 Nenhuma e é totalmente livre para todos.
